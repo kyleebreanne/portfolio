@@ -1,0 +1,101 @@
+body {
+    background-image: url(../images/abstract-attractive-backdrop-988872.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Major Mono Display', monospace;
+}
+header {
+    font-family: 'Major Mono Display', monospace;
+    font-size:40px;
+    font-stretch: condensed;
+    position: absolute;
+    top: 300%;
+    left: 30%;
+     color: white;
+  }
+  .cards{
+    position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  transition: .5s all ease;
+  transform: rotateX(60deg) scale(0.7);
+  perspective: 900px;
+  box-shadow: 0px 20px 50px #555;
+  animation: entry 1s linear 1;
+  
+}
+#c0 {
+    font-size: 50px;
+    text-align: center;
+    font-display: bold;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+    box-shadow: 0px 20px 100px;
+  }
+
+  #c1 {
+    font-size: 50px;
+    text-align: center;
+    font-display: bold;
+    box-shadow: 0px 20px 100px #555;
+    left: 100%;
+    z-index: 0;
+    
+  }
+
+  #c2 {
+    font-size: 45px;
+    text-align: center;
+    font-display: bold;
+    left: -100%;
+    z-index: 0;
+    box-shadow: 0px 20px 100px #555;
+   
+  }
+  
+.cards:hover {
+    cursor: pointer;
+    transform: rotate(0deg) scale(1) translateY(10px);
+    transition: .5s all ease;
+    z-index: 400;
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 300px;
+    height: 500px;
+    perspective: 900px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:link {
+    color:black;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  a:hover {
+    color:black;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: black;
+    text-decoration: none;
+  }
